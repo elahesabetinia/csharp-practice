@@ -3,7 +3,7 @@
 if (!int.TryParse(Console.ReadLine(), out int year))
 {
     Console.WriteLine("Please enter a valid year.");
-    return;
+    //return;
 }
 
 bool isLeap = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
